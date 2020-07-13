@@ -1,3 +1,253 @@
 {% load static %}
 
-<h1> This is my home page!</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bingeworthy Books</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'affiliate/css/modern-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Bingeworthy Books</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://amzn.to/2C6LUtP">New Releases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Privacy Policy</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{%static 'affiliate/images/1.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Bingeworthy Books</h3>
+            <p>Find the best selling books across the net in one place!</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{%static 'affiliate/images/2.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Best reads according to readers</h3>
+            <p>Books that can't be put down once you start!</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{%static 'affiliate/images/3.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Food for the mind</h3>
+            <p>Bingeworthy Best-Sellers!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+
+
+
+    <!-- Portfolio Section -->
+    <h1 class="my-4">Best Sellers right now...</h1>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2C9XZhV"><img class="card-img-top" src="{% static 'affiliate/images/b1.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2C9XZhV">Where the Crawdads Sing</a>
+            </h4>
+            <p class="card-text">This novel has a mystery at its core, but it can be read on a variety of levels. There is great nature writing; there is coming of age; and there is literature. Crawdads is a story lovingly told—one that takes its time in developing its characters and setting, and in developing the story. You’ll want to relax and take your time as well, and when you’re done you will want to talk about it with another reader. </p>
+            <a href="https://amzn.to/2C9XZhV"
+             class="btn btn-secondary">Order Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2CaezxY"><img class="card-img-top" src="{% static 'affiliate/images/b2.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2CaezxY">Too Much and Never Enough: How My Family Created the World's Most Dangerous Man</a>
+            </h4>
+            <p class="card-text">In this revelatory, authoritative portrait of Donald J. Trump and the toxic family that made him, Mary L. Trump, a trained clinical psychologist and Donald’s only niece, shines a bright light on the dark history of their family in order to explain how her uncle became the man who now threatens the world’s health, economic security, and social fabric.</p>
+            <a href="https://amzn.to/2CaezxY"
+            class="btn btn-secondary">Order Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2OmeYzX"><img class="card-img-top" src="{% static 'affiliate/images/b3.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2OmeYzX">The Vanishing Half: A Novel</a>
+            </h4>
+            <p class="card-text">The Vanishing Half examines sisterhood, black identity, and parenthood with compassion and conviction. Told in flashbacks and alternating points of view, this novel asks what is personal identity, if not your past. A riveting and sympathetic story about the bonds of sisterhood</p>
+            <a href="https://amzn.to/2OmeYzX"
+            class="btn btn-secondary">Order Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2AVlRFj"><img class="card-img-top" src="{% static 'affiliate/images/b4.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2AVlRFj">White Fragility: Why It's So Hard for White People to Talk About Racism</a>
+            </h4>
+            <p class="card-text">In this “vital, necessary, and beautiful book” (Michael Eric Dyson), antiracist educator Robin DiAngelo deftly illuminates the phenomenon of white fragility and “allows us to understand racism as a practice not restricted to ‘bad people’ (Claudia Rankine).</p>
+            <a href="https://amzn.to/2AVlRFj"
+            class="btn btn-secondary">Order Now</a>  
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2OkSgrV"><img class="card-img-top" src="{% static 'affiliate/images/b5.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2OkSgrV">28 Summers</a>
+            </h4>
+            <p class="card-text">A "captivating and bittersweet" novel by the #1 New York Times bestselling author of Summer of '69: Their secret love affair has lasted for decades -- but this could be the summer that changes everything.</p>
+            <a href="https://amzn.to/2OkSgrV"
+            class="btn btn-secondary">Order Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/32dWKZN"><img class="card-img-top" src="{% static 'affiliate/images/b6.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/32dWKZN">How to Be an Antiracist</a>
+            </h4>
+            <p class="card-text">#1 NEW YORK TIMES BESTSELLER • From the National Book Award–winning author of Stamped from the Beginning comes a “groundbreaking” (Time) approach to understanding and uprooting racism and inequality in our society—and in ourselves.</p>
+            <a href="https://amzn.to/32dWKZN"
+             class="btn btn-secondary">Order Now</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+    </br>
+    <hr>
+    <br><br/>
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <script type="text/javascript">
+            amzn_assoc_placement = "adunit0";
+            amzn_assoc_tracking_id = "bwbooksheroku-20";
+            amzn_assoc_ad_mode = "search";
+            amzn_assoc_ad_type = "smart";
+            amzn_assoc_marketplace = "amazon";
+            amzn_assoc_region = "US";
+            amzn_assoc_default_search_phrase = "Top Non-Fiction Books";
+            amzn_assoc_default_category = "All";
+            amzn_assoc_linkid = "527b7686e670cc541cf9a7459c4711a8";
+            amzn_assoc_search_bar = "true";
+            amzn_assoc_search_bar_position = "top";
+            amzn_assoc_title = "Shop Related Products";
+            amzn_assoc_rows = "2";
+        </script>
+        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+       
+      </div>
+      <div class="col-lg-6">
+        <script type="text/javascript">
+            amzn_assoc_placement = "adunit0";
+            amzn_assoc_tracking_id = "bwbooksheroku-20";
+            amzn_assoc_ad_mode = "search";
+            amzn_assoc_ad_type = "smart";
+            amzn_assoc_marketplace = "amazon";
+            amzn_assoc_region = "US";
+            amzn_assoc_default_search_phrase = "Top Fiction Books";
+            amzn_assoc_default_category = "All";
+            amzn_assoc_linkid = "527b7686e670cc541cf9a7459c4711a8";
+            amzn_assoc_search_bar = "true";
+            amzn_assoc_search_bar_position = "top";
+            amzn_assoc_title = "Shop Related Products";
+            amzn_assoc_rows = "2";
+            </script>
+            <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+      </div>
+    </div>
+    <!-- /.row -->
+<br/>
+    <hr>
+<br/>
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>A great time to catch up on new stories.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="https://amzn.to/3frxOBM">Trending Books</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
